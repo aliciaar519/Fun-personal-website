@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #EBE8E9;
+}
+
+.header{
+    height: 15vh;
+    width: 90%;
+    float: right;
+    position: relative;
+    background-color: #8d9db6;
+    color: #667292;
+    font-family:"Arial Black", sans-serif; 
+    font-size: 55px; 
+    text-align: center; 
+    border-style: solid; #667292; 
+}
+
+.sidebar{
+    color: #bccad6;
+    width: 9%;
+    float: left;
+    background-color: #667292;
+    height: 100vh;
+    position: fixed;
+    border-style: solid; 
+}
+
+.main{
+    width: 90%;
+    float: right;
+    height: 80vh;
+    background: radial-gradient(ellipse farthest-corner at 100% 0%, #EBE8E9; 5%, #EBE8D7);
+}
+
+.main blockquote {
+    margin-bottom: 5vh;
+}
+
+.footer{
+    width: 100%;
+    float: right;
+    height: 3vh;
+    position: fixed;
+    bottom: 0;
+    background-color: #667292;
+    color: #bccad6;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.navigation {
+    list-style-type: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 1em 1em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navigation a {
+    color: #bccad6;
+    text-decoration: none;
+}
+
+.dropdown-content a {
+    color: black;
+    text-align: center;
+    display: block;
+    margin: 1em 1em;
+}
+
+.dropdown-content a:hover {
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 900;
+}
+
+.mtn{
+    font-size: 180%;
+    font-family: sans-serif;
+    padding-left: 12%;
+}
+
+
+h2 {color: #667292; background-color: #8d9db6; font-family:"Arial Black"; font-size: 30px; text-align: center; border-style: solid; #667292; border-radius: 20px; padding: 15px;}
+
+h3 {color: #212F3C; font-family:"Arial Black", sans-serif; }
+h4 {color: #212F3C; font-family:"Arial Black", sans-serif; }
+p {font-size: 1.7vw; font-family:"Arial"; margin-left:30px;}
+.coursework {font-size: 1.2vw; font-family: "Arial"}
+.date {font-size: 1.2vw; font-style: italic;}
+.layla {font-size: 12px;}
+.list {text-decoration: underline;}
+img{border: 5px double #212F3C; padding: 5px;}
+#name {font-size: 25px; font-family:"Brush Script MT"; text-align: center;}
+ul {font-size: 12px; font-family:"Arial"}
+
+h2:hover{background-color:#b7d7e8;}
+p::selection {background: lightblue;}
+figcaption {font-family:"Arial"; font-size: 11px; }
